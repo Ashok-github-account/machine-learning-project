@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Heart Disease</span></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="/index">Home</a></li>
+          <li class="drop-down"><a href="">Notebook</a>
+            <ul>
+              <li><a href="/notebook1">RFE</a></li>
+              <li><a href="/notebook2">Without-Feature</a></li>
+              <li><a href="/notebook3">SFS-Feature</a></li>
+            </ul>
+          </li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/login">Signout</a></li>
+
+          
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>RELATIVE ANALYSIS OF PREDICTION OF HUMAN HEART DISEASE USING MACHINE LEARNING</h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="static/img/intro-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+                <h3>Outcome:</h3>
+                <p style="font-size: xx-large;">
+                    
+                    <p style="font-size: xx-large;">
+                    {% if result == 0 %}
+                    <h2 style="color:rgb(115, 255, 0) ;margin-top: 10%; " >Based on the input, the Patient is predicted with <strong>No Heart Disease</strong></h2>
+                    
+                    {% elif result == 1%}
+                    <h2 style="color:rgb(255, 0, 0); margin-top: 10%;">Based on the input, the Patient is predicted with <strong>Heart Disease</strong></h2>
+                    {% endif %}
+					
+                    </p>
+
+                 <br><br>
+               </div>
+            </div><br><br><br><br><br>
+            <!-- health section end -->
+               <!-- footer section start -->
+            <div class="footer_section layout_padding">
+               <div class="container">
+                
+               </div>
+            </div>
+            <!-- footer section end -->
+            
+            <!-- Javascript files-->
+            <script src="static/js/jquery.min.js"></script>
+            <script src="static/js/popper.min.js"></script>
+            <script src="static/js/bootstrap.bundle.min.js"></script>
+            <script src="static/js/jquery-3.0.0.min.js"></script>
+            <script src="static/js/plugin.js"></script>
+            <!-- sidebar -->
+            <script src="static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="static/js/custom.js"></script>
+            <!-- javascript -->
+            <script src="static/js/owl.carousel.js"></script>
+            <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+          </body>
+          
+          </html>

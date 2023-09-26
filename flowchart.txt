@@ -1,0 +1,32 @@
+1. Importing the packages
+2. Exploring the dataset - Heart Disease UCI data
+3. Data processing using pandas dataframe
+4. visualization using seaborn & matplotlib
+5. Feature Selection 
+	- Recursive Feature Elimination with Linear Regression - RFE
+	- SequentialFeatureSelector with KNN - SFS
+	- Without Feature Selection
+6. Building the model
+	- SVM
+	- Random Forest
+	- Decision Tree - J48
+	- MLP-ANN
+	- SMO - LinearSVC
+	- Gradient Boosting Classifier
+	- LDA - Linear Discriminant Classifier
+	- KNN
+	- XGBoost
+	- Voting Classifier ( SVM + DT + RF)
+7. Training the model
+8. Building the model with Voting Classifier since it gives better score comparing with Other Models 
+9. Flask Framework with Sqlite for signup and signin
+10. Importing the packages
+11. User gives input as Feature Values 
+12. The given input is preprocessed for prediction
+13. Trained model is used for prediction
+14. Final outcome is displayed through frontend
+
+Extension:
+In the base paper, the author mentioned few Machine Learning,Random Forest Classifier and Decision Tree Classifier 100 and 99.4%, 
+As an extension we have applied Voting Classifier and XGBoost Classifier, in which Voting Classifier and XGBoost also got 100% 
+So with the Voting Classifier we build the model that is used for predicting the results.

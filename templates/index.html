@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="static/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="static/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+
+    <div id="topbar">
+      <div class="container">
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Heart Disease</span></a></h1>
+        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="/index">Home</a></li>
+          <li class="drop-down"><a href="">Notebook</a>
+            <ul>
+              <li><a href="/notebook1">RFE</a></li>
+              <li><a href="/notebook2">Without-Feature</a></li>
+              <li><a href="/notebook3">SFS-Feature</a></li>
+            </ul>
+          </li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/login">Signout</a></li>
+
+          
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-6 intro-info order-md-first order-last">
+          <h2>RELATIVE ANALYSIS OF PREDICTION OF HUMAN HEART DISEASE USING MACHINE LEARNING</h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+  
+        <div class="col-md-6 intro-img order-md-last order-first">
+          <img src="static/img/intro-img.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+				<form action="/predict" method="post">
+
+					<div class="form-group">
+                  <label for="age" class="ph-area">Enter Your Age</label><br><br>
+					   <input type="number" name="0" id="age" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age1" class="ph-area">Enter Your Gender</label><br><br>
+					   <input type="number" name="1" id="age1" class="form-control" required placeholder="0 or 1">
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age2" class="ph-area">Enter the CP</label><br><br>
+					   <input type="number" name="2" id="age2" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age3" class="ph-area">Enter the trestbps</label><br><br>
+					   <input type="number" name="3" id="age3" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age4" class="ph-area">Enter the Cholestrol</label><br><br>
+					   <input type="number" name="4" id="age4" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age5" class="ph-area">Enter the fbs</label><br><br>
+					   <input type="number" name="5" id="age5" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age6" class="ph-area">Enter the restecg</label><br><br>
+					   <input type="number" name="6" id="age6" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age01" class="ph-area">Enter the thalach</label><br><br>
+					   <input type="number" name="7" id="age01" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age7" class="ph-area">Enter the exang</label><br><br>
+					   <input type="number" name="8" id="age7" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age8" class="ph-area">Enter the oldpeak</label><br><br>
+					   <input type="number" name="9" id="age8" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age9" class="ph-area">Enter the Slope</label><br><br>
+					   <input type="number" name="10" id="age9" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age10" class="ph-area">Enter the ca</label><br><br>
+					   <input type="number" name="11" id="age10" class="form-control" required>
+					  
+					</div>
+					<br><br>
+               <div class="form-group">
+                  <label for="age11" class="ph-area">Enter the thal</label><br><br>
+					   <input type="number" name="12" id="age11" class="form-control" required>
+					  
+					</div>
+					
+					<br><br>
+					
+				  <div class="form-group">
+					<input type="submit" class="btn btn-primary" value="Submit">
+					<input type="reset" class="btn btn-danger" value="Reset">
+				  </div>
+				</form>
+            </div>
+		</div>
+      <br><br><br><br><br>
+		<!-- health section end -->
+		   <!-- footer section start -->
+		<div class="footer_section layout_padding">
+		   <div class="container">
+			  
+		   </div>
+		</div>
+		<!-- footer section end -->
+		
+		<!-- Javascript files-->
+		<script src="static/js/jquery.min.js"></script>
+		<script src="static/js/popper.min.js"></script>
+		<script src="static/js/bootstrap.bundle.min.js"></script>
+		<script src="static/js/jquery-3.0.0.min.js"></script>
+		<script src="static/js/plugin.js"></script>
+		<!-- sidebar -->
+		<script src="static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/js/custom.js"></script>
+		<!-- javascript -->
+		<script src="static/js/owl.carousel.js"></script>
+		<script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+	 </body>
+	 
+	 </html>
